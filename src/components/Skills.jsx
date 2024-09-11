@@ -97,8 +97,8 @@ const Skills = () => {
 
   return (
     <section className="bg-dark text-white  border-y-custom  border-cuscol mb-24 md:mb-12 max-w-full">
-    <div className=" container mx-auto flex flex-col items-center justify-between max-w-[95%] lg:max-w-[80%]" id="skills">
-      <div className="border-b-custom border-cuscol w-full ">
+    <div className=" container mx-auto flex flex-col items-center justify-between md:border-x-custom  md:border-cuscol max-w-[95%] lg:max-w-[80%]" id="skills">
+      <div className="md:border-b-custom md:border-cuscol w-full py-5">
       <h2 className="text-3xl text-gray-200 font-bold py-5 text-center w-full">
         Skills
       </h2>
@@ -107,7 +107,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="md:border-x-custom border-custom border-cuscol hover:bg-cuscol/20 rounded-lg p-6 shadow-lg w-full md:w-1/2 "
+            className="md:border-x-custom md:border-custom border-cuscol hover:bg-cuscol/20 rounded-lg p-6 shadow-lg w-full md:w-1/2 "
           >
             <h3 className="text-xl font-bold mb-4 text-center">
               {skill.category}
