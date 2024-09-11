@@ -31,8 +31,8 @@ const Projects = () => {
             techStack:
               "React, Tailwind CSS",
             links: {
-              site: "https://college-work-ruddy.vercel.app/",
-              github: "https://github.com/faizanr27/College-work",
+              site: "https://faizan-raza.vercel.app/",
+              github: "https://github.com/faizanr27/react-portfolio",
             },
           },
         {
