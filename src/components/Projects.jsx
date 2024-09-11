@@ -68,7 +68,7 @@ const Projects = () => {
   
     return (
       <section id="projects" className="bg-dark text-white border-y-custom border-cuscol max-w-full mb-24 md:mb-12">
-        <div className="container mx-auto text-center py-10 border-x-custom border-cuscol max-w-[95%] lg:max-w-[80%]">
+        <div className="container mx-auto text-center py-10 max-w-[95%] lg:max-w-[80%]">
         <h2 className="text-3xl font-bold text-gray-200 mb-8 text-center">
       Portfolio
     </h2>
