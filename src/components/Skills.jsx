@@ -103,11 +103,11 @@ const Skills = () => {
         Skills
       </h2>
       </div>
-      <div className="max-w-[1000px] mx-auto flex flex-col md:flex-row justify-center space-y-8 md:space-x-8 md:space-y-0 ">
+      <div className="mb-5 max-w-[1000px] mx-auto flex flex-col md:flex-row justify-center space-y-8 md:space-x-8 md:space-y-0 ">
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="md:border-x-custom md:border-custom border-cuscol hover:bg-cuscol/20 rounded-lg p-6 shadow-lg w-full md:w-1/2 "
+            className="md:border-x-custom border-custom border-cuscol hover:bg-cuscol/20 rounded-lg p-6 shadow-lg w-full md:w-1/2 "
           >
             <h3 className="text-xl font-bold mb-4 text-center">
               {skill.category}
