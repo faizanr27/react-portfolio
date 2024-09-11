@@ -1,7 +1,7 @@
 const Hero = () => {
     return (
       <section id="home" className="bg-dark text-white  border-b-custom  border-cuscol mb-24 md:mb-12 max-w-full">
-        <div className="container py-5 mx-auto flex flex-col md:flex-row items-center justify-between border-x-custom border-cuscol max-w-[95%] lg:max-w-[80%] ">
+        <div className="container py-5 mx-auto flex flex-col md:flex-row items-center justify-between max-w-[95%] lg:max-w-[80%] ">
           <div className="heroText text-center md:text-left md:ml-3">
             <span className="block text-6xl mb-2">HI, I am</span>
             <span className="block text-6xl font-bold mb-2 text-neon">Faizan</span>
