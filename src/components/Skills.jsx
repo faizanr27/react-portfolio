@@ -98,7 +98,7 @@ const Skills = () => {
   return (
     <section className="bg-dark text-white  border-y-custom  border-cuscol mb-24 md:mb-12 max-w-full">
     <div className=" container mx-auto flex flex-col items-center justify-between md:border-x-custom  md:border-cuscol max-w-[95%] lg:max-w-[80%]" id="skills">
-      <div className="md:border-b-custom md:border-cuscol w-full py-5">
+      <div className=" w-full py-5">
       <h2 className="text-3xl text-gray-200 font-bold py-5 text-center w-full">
         Skills
       </h2>
