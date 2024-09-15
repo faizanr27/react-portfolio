@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+
 const Hero = () => {
     return (
       <section id="home" className="bg-dark text-white  border-b-custom  border-cuscol mb-24 md:mb-12 max-w-full">
@@ -11,6 +13,7 @@ const Hero = () => {
             </p>
             <a href="https://drive.google.com/file/d/1uX6RvyV1-4z_WWvnVL3DPNYbsAOhAqxq/view?usp=drive_link" className="bg-neon text-black px-6 py-3 rounded-lg">Download CV</a>
           </div>
+
           <div className="heroImage mt-10 md:mt-0">
             <img src="/assets/fr.jpg" alt="Profile" className="w-64 h-64 rounded-full mx-auto md:mx-0" />
           </div>

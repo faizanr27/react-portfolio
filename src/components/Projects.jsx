@@ -4,6 +4,8 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.png";
+import blog from '../assets/blog.png'
+import time from '../assets/time.png'
 
 const Projects = () => {
     const projects = [
@@ -35,6 +37,35 @@ const Projects = () => {
               github: "https://github.com/faizanr27/react-portfolio",
             },
           },
+          {
+            img: blog,
+            title: "Blog Card",
+            description: [
+              "Minimalistic Design: The blog card preview has a clean, modern layout.",
+              "Responsive Layout: The cards adjust smoothly to different screen sizes.",
+              "Interactive Elements: Subtle hover effects adds a touch of interactivity."
+            ],
+            techStack:
+              "HTML, Tailwind CSS",
+            links: {
+              site: "https://blog-card-prev.vercel.app/",
+              github: "https://github.com/faizanr27/Blog-preview-card",
+            },
+          },
+          {
+            img: time,
+            title: "Time Tracking Dashboard UI",
+            description: [
+              "Sleek Design: The dashboard has a modern, visually appealing design.",
+              "Responsive: The layout adjusts well across devices, ensuring a smooth user experience on both desktop and mobile.",
+            ],
+            techStack:
+              "React js, Tailwind CSS",
+            links: {
+              site: "https://time-tracking-dashboard-ui.vercel.app/",
+              github: "https://github.com/faizanr27/Time-tracking-dashboard-UI",
+            },
+          },
         {
           img: project2,
           title: "Blogr Landing Page",
@@ -49,6 +80,8 @@ const Projects = () => {
             github: "https://github.com/faizanr27/Blogr-landing-page",
           },
         },
+        
+
         {
             img: project3,
             title: "Campus Connect",
@@ -68,11 +101,11 @@ const Projects = () => {
   
     return (
       <section id="projects" className="bg-dark text-white border-y-custom border-cuscol max-w-full mb-24 md:mb-12">
-        <div className="container mx-auto text-center py-10 md:border-x-custom md:border-cuscol max-w-[95%] lg:max-w-[80%]">
+        <div className="container mx-auto text-center py-10 xl:px-20 xl:py-5 md:border-x-custom md:border-cuscol max-w-[95%] lg:max-w-[80%] xl:flex xl:flex-col xl:items-center">
         <h2 className="text-3xl font-bold text-gray-200 mb-8 text-center">
       Portfolio
     </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10 xl:max-w-[900px] ">
       {projects.map((project, index) => (
         <div
           key={index}
