@@ -31,7 +31,7 @@ const Projects = () => {
               "Utilizes Tailwind CSS for responsive styling"
             ],
             techStack:
-              "React, Tailwind CSS",
+              "React, Tailwind CSS, Framer motion",
             links: {
               site: "https://faizan-raza.vercel.app/",
               github: "https://github.com/faizanr27/react-portfolio",
