@@ -6,23 +6,26 @@ import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.png";
 import blog from '../assets/blog.png'
 import time from '../assets/time.png'
+import urlss from '../assets/urlss.png'
 
 const Projects = () => {
     const projects = [
         {
-          img: project1,
-          title: "Personel Event Manager",
-          description: [
-            "Simple Personel Event Manager web application",
-            "Built with React.js and Tailwind CSS.",
-            "CRUD (Create, Read, Update, Delete) functionality.",
-          ],
-          techStack: "React, Tailwind CSS",
-          links: {
-            site: "https://event-nine-tau.vercel.app/",
-            github: "https://github.com/faizanr27/Event",
+            img: urlss,
+            title: "Shortsy",
+            description: [
+              "The URL shortener is a full-stack app that offers secure URL shortening with JWT for authentication",
+              "and bcrypt for password hashing. It uses MongoDB as the database",
+                "and features a clean interface with Shadcn UI."
+            ],
+            techStack:
+              "React.js , TailwindCSS, Shadcn/ui, Node.js , MongoDb , Express.js, Mongoose",
+            links: {
+              site: "https://url-shortner-azure-six.vercel.app/",
+              github: "https://github.com/faizanr27/url-shortner",
+            },
           },
-        },
+
         {
             img: project4,
             title: "Portfolio Website",
@@ -37,21 +40,7 @@ const Projects = () => {
               github: "https://github.com/faizanr27/react-portfolio",
             },
           },
-          {
-            img: blog,
-            title: "Blog Card",
-            description: [
-              "Minimalistic Design: The blog card preview has a clean, modern layout.",
-              "Responsive Layout: The cards adjust smoothly to different screen sizes.",
-              "Interactive Elements: Subtle hover effects adds a touch of interactivity."
-            ],
-            techStack:
-              "HTML, Tailwind CSS",
-            links: {
-              site: "https://blog-card-prev.vercel.app/",
-              github: "https://github.com/faizanr27/Blog-preview-card",
-            },
-          },
+                 
           {
             img: time,
             title: "Time Tracking Dashboard UI",
@@ -66,6 +55,36 @@ const Projects = () => {
               github: "https://github.com/faizanr27/Time-tracking-dashboard-UI",
             },
           },
+        {
+          img: project1,
+          title: "Personel Event Manager",
+          description: [
+            "Simple Personel Event Manager web application",
+            "Built with React.js and Tailwind CSS.",
+            "CRUD (Create, Read, Update, Delete) functionality.",
+          ],
+          techStack: "React, Tailwind CSS",
+          links: {
+            site: "https://event-nine-tau.vercel.app/",
+            github: "https://github.com/faizanr27/Event",
+          },
+        },
+         {
+            img: blog,
+            title: "Blog Card",
+            description: [
+              "Minimalistic Design: The blog card preview has a clean, modern layout.",
+              "Responsive Layout: The cards adjust smoothly to different screen sizes.",
+              "Interactive Elements: Subtle hover effects adds a touch of interactivity."
+            ],
+            techStack:
+              "HTML, Tailwind CSS",
+            links: {
+              site: "https://blog-card-prev.vercel.app/",
+              github: "https://github.com/faizanr27/Blog-preview-card",
+            },
+          },
+
         {
           img: project2,
           title: "Blogr Landing Page",
