@@ -1,12 +1,13 @@
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLink } from "react-icons/fa";
-import project1 from "../assets/project1.png";
+// import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.png";
 import blog from '../assets/blog.png'
 import time from '../assets/time.png'
 import urlss from '../assets/urlss.png'
+import foodfacts from '../assets/foodfacts.png'
 
 const Projects = () => {
     const projects = [
@@ -55,20 +56,34 @@ const Projects = () => {
               github: "https://github.com/faizanr27/Time-tracking-dashboard-UI",
             },
           },
-        {
-          img: project1,
-          title: "Personel Event Manager",
-          description: [
-            "Simple Personel Event Manager web application",
-            "Built with React.js and Tailwind CSS.",
-            "CRUD (Create, Read, Update, Delete) functionality.",
-          ],
-          techStack: "React, Tailwind CSS",
-          links: {
-            site: "https://event-nine-tau.vercel.app/",
-            github: "https://github.com/faizanr27/Event",
+           {
+            img: foodfacts,
+            title: "Food Facts",
+            description: [
+              "This web application allows users to search for product details using the OpenFoodFacts API and provides a paginated view of product lists. ",
+              "It displays detailed information about each product, such as ingredients, nutrition facts, and labels.",
+            ],
+            techStack:
+              "React js, Tailwind CSS, OpenFoodFacts API",
+            links: {
+              site: "https://food-facts-theta.vercel.app",
+              github: "https://github.com/faizanr27/food-facts",
+            },
           },
-        },
+        // {
+        //   img: project1,
+        //   title: "Personel Event Manager",
+        //   description: [
+        //     "Simple Personel Event Manager web application",
+        //     "Built with React.js and Tailwind CSS.",
+        //     "CRUD (Create, Read, Update, Delete) functionality.",
+        //   ],
+        //   techStack: "React, Tailwind CSS",
+        //   links: {
+        //     site: "https://event-nine-tau.vercel.app/",
+        //     github: "https://github.com/faizanr27/Event",
+        //   },
+        // },
          {
             img: blog,
             title: "Blog Card",
