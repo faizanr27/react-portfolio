@@ -22,7 +22,7 @@ const Projects = () => {
             techStack:
               "React.js , TailwindCSS, Shadcn/ui, Node.js , MongoDb , Express.js, Mongoose",
             links: {
-              site: "https://url-shortner-azure-six.vercel.app/",
+              site: "https://shrtsy.vercel.app/",
               github: "https://github.com/faizanr27/url-shortner",
             },
           },
