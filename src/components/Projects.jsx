@@ -1,6 +1,6 @@
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLink } from "react-icons/fa";
-// import project1 from "../assets/project1.png";
+import echo from "../assets/echo.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.webp";
 import project4 from "../assets/project4.png";
@@ -24,6 +24,19 @@ const Projects = () => {
             links: {
               site: "https://shrtsy.vercel.app/",
               github: "https://github.com/faizanr27/url-shortner",
+            },
+          },
+         {
+            img: echo,
+            title: "Echo landing page",
+            description: [
+              "Landing page for Echo an http client for terminal",
+            ],
+            techStack:
+              "React, Tailwind CSS, Framer motion, shadcn",
+            links: {
+              site: "https://echo-http.vercel.app/",
+              github: "https://github.com/faizanr27/Echo",
             },
           },
 
