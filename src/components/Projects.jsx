@@ -8,17 +8,40 @@ import blog from '../assets/blog.png'
 import time from '../assets/time.png'
 import urlss from '../assets/urlss.png'
 import foodfacts from '../assets/foodfacts.png'
+import hive from '../assets/hive.png'
+import Devb from '../assets/Devb.png'
 
 const Projects = () => {
     const projects = [
+      {
+        img: hive,
+        title: "Hive Mind",
+        description: [
+          "Your personal knowledge hub to store, organize, and retrieve ideas effortlessly.",
+          "Easily categorize notes, ideas, and files for quick access."
+        ],
+        techStack:
+          "React , Typescript, TailwindCSS, Node.js, MongoDb, Express.js, Mongoose",
+        links: {
+          site: "https://hivee-mind.vercel.app/",
+          github: "https://github.com/faizanr27/Hive-Mind-FE",
+        },
+      },
+      {
+        img: Devb,
+        title: "Dev Blog",
+        description:"Your personal knowledge hub to store, organize, and retrieve ideas effortlessly. Easily categorize notes, ideas, and files for quick access.",
+        techStack:
+          "React, TailwindCSS, Node.js, MongoDb, Express.js, Mongoose",
+        links: {
+          site: "https://dev-blogg.vercel.app/",
+          github: "https://github.com/faizanr27/Dev-Blog",
+        },
+      },
         {
             img: urlss,
             title: "Shortsy",
-            description: [
-              "The URL shortener is a full-stack app that offers secure URL shortening with JWT for authentication",
-              "and bcrypt for password hashing. It uses MongoDB as the database",
-                "and features a clean interface with Shadcn UI."
-            ],
+            description: "The URL shortener is a full-stack app that offers secure URL shortening with JWT for authentication and bcrypt for password hashing. It uses MongoDB as the database and features a clean interface with Shadcn UI.",
             techStack:
               "React.js , TailwindCSS, Shadcn/ui, Node.js , MongoDb , Express.js, Mongoose",
             links: {
@@ -29,9 +52,7 @@ const Projects = () => {
          {
             img: echo,
             title: "Echo landing page",
-            description: [
-              "Landing page for Echo an http client for terminal",
-            ],
+            description:"Landing page for Echo an http client for terminal",
             techStack:
               "React, Tailwind CSS, Framer motion, shadcn",
             links: {
@@ -43,10 +64,8 @@ const Projects = () => {
         {
             img: project4,
             title: "Portfolio Website",
-            description: [
-              "Showcases my projects and skills with a clean, modern design",
-              "Utilizes Tailwind CSS for responsive styling"
-            ],
+            description:
+              "Showcases my projects and skills with a clean, modern design . Utilizes Tailwind CSS for responsive styling",
             techStack:
               "React, Tailwind CSS, Framer motion",
             links: {
@@ -54,28 +73,24 @@ const Projects = () => {
               github: "https://github.com/faizanr27/react-portfolio",
             },
           },
-                 
-          {
-            img: time,
-            title: "Time Tracking Dashboard UI",
-            description: [
-              "Sleek Design: The dashboard has a modern, visually appealing design.",
-              "Responsive: The layout adjusts well across devices, ensuring a smooth user experience on both desktop and mobile.",
-            ],
-            techStack:
-              "React js, Tailwind CSS",
-            links: {
-              site: "https://time-tracking-dashboard-ui.vercel.app/",
-              github: "https://github.com/faizanr27/Time-tracking-dashboard-UI",
-            },
-          },
+
+          // {
+          //   img: time,
+          //   title: "Time Tracking Dashboard UI",
+          //   description:
+          //     "The dashboard has a modern, visually appealing design.The layout adjusts well across devices, ensuring a smooth user experience on both desktop and mobile.",
+          //   techStack:
+          //     "React js, Tailwind CSS",
+          //   links: {
+          //     site: "https://time-tracking-dashboard-ui.vercel.app/",
+          //     github: "https://github.com/faizanr27/Time-tracking-dashboard-UI",
+          //   },
+          // },
            {
             img: foodfacts,
             title: "Food Facts",
-            description: [
-              "This web application allows users to search for product details using the OpenFoodFacts API and provides a paginated view of product lists. ",
-              "It displays detailed information about each product, such as ingredients, nutrition facts, and labels.",
-            ],
+            description:
+              "This web application allows users to search for product details using the OpenFoodFacts API and provides a paginated view of product lists. It displays detailed information about each product, such as ingredients, nutrition facts, and labels.",
             techStack:
               "React js, Tailwind CSS, OpenFoodFacts API",
             links: {
@@ -97,21 +112,18 @@ const Projects = () => {
         //     github: "https://github.com/faizanr27/Event",
         //   },
         // },
-         {
-            img: blog,
-            title: "Blog Card",
-            description: [
-              "Minimalistic Design: The blog card preview has a clean, modern layout.",
-              "Responsive Layout: The cards adjust smoothly to different screen sizes.",
-              "Interactive Elements: Subtle hover effects adds a touch of interactivity."
-            ],
-            techStack:
-              "HTML, Tailwind CSS",
-            links: {
-              site: "https://blog-card-prev.vercel.app/",
-              github: "https://github.com/faizanr27/Blog-preview-card",
-            },
-          },
+        //  {
+        //     img: blog,
+        //     title: "Blog Card",
+        //     description:
+        //       "The blog card preview has a clean, modern layout.Responsive Layout: The cards adjust smoothly to different screen sizes.Interactive Elements: Subtle hover effects adds a touch of interactivity.",
+        //     techStack:
+        //       "HTML, Tailwind CSS",
+        //     links: {
+        //       site: "https://blog-card-prev.vercel.app/",
+        //       github: "https://github.com/faizanr27/Blog-preview-card",
+        //     },
+        //   },
 
         {
           img: project2,
@@ -127,7 +139,7 @@ const Projects = () => {
             github: "https://github.com/faizanr27/Blogr-landing-page",
           },
         },
-        
+
 
         {
             img: project3,
@@ -145,18 +157,27 @@ const Projects = () => {
             },
           },
       ];
-  
+
     return (
-      <section id="projects" className="bg-dark text-white border-y-custom border-cuscol max-w-full mb-24 md:mb-12">
-        <div className="container mx-auto text-center py-10 xl:px-20 xl:py-5 md:border-x-custom md:border-cuscol max-w-[95%] lg:max-w-[80%] xl:flex xl:flex-col xl:items-center">
+      <section id="projects" className=" text-white  max-w-full mb-24 md:mb-12 overflow-x-hidden">
+        <div className="container mx-auto text-center py-10 xl:px-20 xl:py-5 max-w-max lg:max-w-[80%] xl:flex xl:flex-col xl:items-center">
+          <div className="absolute -bottom-[1500px] right-20 flex justify-center -z-10 ">
+              <div className="w-56 h-56 rounded-full bg-lime-700/20 blur-3xl" />
+          </div>
+          <div className="absolute -bottom-[450px] flex justify-center -z-10 ">
+              <div className="w-56 sm:w-96 h-56 sm:h-96 rounded-full bg-lime-700/20 blur-3xl" />
+          </div>
+          <div className="absolute -bottom-[1100px] left-20 flex justify-center -z-10">
+              <div className="sm:w-72 sm:h-72 w-56 h-56 rounded-full bg-lime-700/20 blur-3xl" />
+          </div>
         <h2 className="text-3xl font-bold text-gray-200 mb-8 text-center">
-      Portfolio
+      Projects
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10 xl:max-w-[900px] ">
       {projects.map((project, index) => (
         <div
           key={index}
-          className="bg-black hover:bg-cuscol/20 rounded-xl border-2 border-cuscol shadow-xl overflow-hidden flex flex-col "
+          className="bg-dark/80 hover:bg-cuscol/20 rounded-xl border-2 border-cuscol/30 shadow-xl overflow-hidden flex flex-col "
         >
           <img
             src={project.img}
@@ -171,13 +192,9 @@ const Projects = () => {
               <p className="text-he text-sm whitespace-pre-wrap mb-4">
                 {project.techStack}
               </p>
-              <ul className="text-he text-sm mb-4">
-                {project.description.map((item, index) => (
-                  <li key={index} className="mb-1">
-                    • {item}
-                  </li>
-                ))}
-              </ul>
+              <p className="text-he text-sm mb-4 hidden sm:block">
+                {project.description}
+              </p>
             </div>
             <div className="flex space-x-4 flex-wrap mt-auto">
               {project.links.site && (
@@ -211,6 +228,6 @@ const Projects = () => {
       </section>
     );
   };
-  
+
   export default Projects;
-  
+

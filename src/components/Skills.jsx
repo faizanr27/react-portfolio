@@ -15,6 +15,7 @@ import {
   SiTailwindcss,
   SiFirebase,
 } from "react-icons/si";
+import { motion } from "framer-motion"
 
 const Skills = () => {
   const skills = [
@@ -96,18 +97,27 @@ const Skills = () => {
   ];
 
   return (
-    <section className="bg-dark text-white  border-y-custom  border-cuscol mb-24 md:mb-12 max-w-full">
-    <div className=" container mx-auto flex flex-col items-center justify-between md:border-x-custom  md:border-cuscol max-w-[95%] lg:max-w-[80%]" id="skills">
-      <div className=" w-full py-5">
-      <h2 className="text-3xl text-gray-200 font-bold py-5 text-center w-full">
+    <section className=" text-white  mb-24 md:mb-12 max-w-full overflow-x-hidden">
+    <div className=" container mx-auto flex flex-col items-center justify-between max-w-[95%] lg:max-w-[80%]" id="skills">
+      <div className=" w-full py-5 overflow-y-hidden">
+      <motion.h2
+      initial={{ opacity: 0, y:100 }}
+      whileInView={{ opacity: 1, y:0}}
+      viewport={{ once: true }}
+      transition={{ duration: 1, delay: 0.5 }}
+      className="text-3xl text-gray-200 min-h-max font-bold py-6 text-center w-full overflow-x-hidden">
         Skills
-      </h2>
+      </motion.h2>
       </div>
       <div className="mb-5 max-w-[1000px] mx-auto flex flex-col md:flex-row justify-center space-y-8 md:space-x-8 md:space-y-0 ">
         {skills.map((skill, index) => (
-          <div
+          <motion.div
             key={index}
-            className="md:border-x-custom border-custom border-cuscol hover:bg-cuscol/20 rounded-lg p-6 shadow-lg w-full md:w-1/2 "
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            viewport={{ once: true }}
+            transition={{ duration: 1, delay: 0.8 }}
+            className="bg-dark/80 md:border-x-custom border-custom border-cuscol/30 hover:bg-cuscol/20 rounded-lg p-6 shadow-lg w-full md:w-1/2 "
           >
             <h3 className="text-xl font-bold mb-4 text-center">
               {skill.category}
@@ -123,7 +133,7 @@ const Skills = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>

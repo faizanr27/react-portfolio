@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="backdrop-filter backdrop-blur-xs">
       <Header />
       <main>
         <Hero />
