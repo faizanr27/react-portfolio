@@ -67,7 +67,7 @@ const Hero = () => {
                  whileInView={{ opacity: 1 }}
                  viewport={{ once: true }}
                  transition={{ duration: 1.6, delay: 1 }}
-                 href="https://drive.google.com/file/d/1Gfiu2_o-jE6jcTHJGD2n-KzItBW2ZqqH/view?usp=drivesdk" className="bg-neon text-black px-6 py-3 rounded-lg ">Download CV</motion.a>
+                 href="https://drive.google.com/file/d/119QF12_Ck7yWd-Nl1ODHYHqn0PzScuwm/view?usp=sharing" className="bg-neon text-black px-6 py-3 rounded-lg ">Download CV</motion.a>
             </div>
 
           </div>
