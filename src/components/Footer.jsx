@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div
           id="contact"
-          className="text-he py-12 px-6 md:px-12 flex flex-col items-center rounded-t-lg shadow-lg"
+          className="bg-dark/70 text-he py-12 px-6 md:px-12 border-t border-cuscol/20 flex flex-col items-center rounded-t-lg shadow-lg"
         >
           <h2 className="text-3xl font-bold mb-6 text-center">Contact Me</h2>
           <p className="mb-8 text-lg text-center">
@@ -46,7 +46,6 @@ const Footer = () => {
         </div>
       );
   };
-  
+
   export default Footer;
-  
-  
+

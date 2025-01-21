@@ -5,7 +5,16 @@
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
-    background-color: black;
+    background-image: linear-gradient(0deg, #111111 1px, transparent 1px),linear-gradient(90deg, #111111 1px, transparent 1px);
+    background-size: 75px 75px;
+    background-color:#000000;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    overflow-x:hidden;
     margin: 0;
     padding: 0;
   }
+  /* .dotted-background {
+
+  } */
