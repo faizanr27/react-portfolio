@@ -7,7 +7,7 @@ const Hero = () => {
 <div className="inset-0 -z-10">
       <div className="absolute bottom-40 left-10 sm:left-28 sm:w-78 sm:h-78 w-56 h-56 rounded-7xl bg-lime-700/20 blur-3xl" />
       <div className="absolute top-20 right-10 sm:right-28 sm:w-78 sm:h-78 w-56 h-56 rounded-7xl bg-lime-700/20 blur-3xl" />
-      <div className="absolute right-[40%] bottom-60 sm:bottom-80 xl:right-[700px] lg:right-[300px] sm:block hidden w-[400px] h-[400px] rounded-full bg-lime-700/20 blur-3xl" />
+      <div className="absolute right-[40%] bottom-60 sm:bottom-[500px] xl:right-[700px] lg:right-[300px] sm:block hidden w-[400px] h-[400px] rounded-full bg-lime-700/20 blur-3xl" />
     </div>
         <div className="container py-5 mx-auto flex flex-col md:flex-row items-center gap-2 justify-center max-w-[95%] lg:max-w-[80%] ">
           <div className="heroText text-center md:text-left md:ml-3">
