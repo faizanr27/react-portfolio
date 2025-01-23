@@ -30,7 +30,7 @@ const Projects = () => {
       {
         img: Devb,
         title: "Dev Blog",
-        description:"Your personal knowledge hub to store, organize, and retrieve ideas effortlessly. Easily categorize notes, ideas, and files for quick access.",
+        description:"FullStack Blog App with minimalistic ui.",
         techStack:
           "React, TailwindCSS, Node.js, MongoDb, Express.js, Mongoose",
         links: {
